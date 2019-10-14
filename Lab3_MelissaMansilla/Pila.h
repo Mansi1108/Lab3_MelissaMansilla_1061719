@@ -5,13 +5,11 @@ class Pila
 {
 private:
 	Nodo* Head = nullptr; //siempre inicializar punteros en nulo
-private:
-	int NElementos = 0; 
-public: 
-	void Apilar(Carta valor); // Recibe carta para ingresar a la pila.
-public: 
-	Carta Desapilar(); // Sacar carta de la pila
 public:
+	Nodo * head2 = Head;
+	int NElementos = 0;
+	void Apilar(Carta valor); // Recibe carta para ingresar a la pila.
+	Carta Desapilar(); // Sacar carta de la pila
 	Carta ObtenerCima(); // Obtener CArta en la cima sin sacarla
 
 public:

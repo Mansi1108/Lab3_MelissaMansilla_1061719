@@ -5,7 +5,7 @@ public:
 	Carta();
 	~Carta();
 public:
-	int Numero;
-	int Color;
+	int numero;
+	char Color;
 };
 
