@@ -397,6 +397,7 @@ namespace Lab3MelissaMansilla {
 
 		}
 #pragma endregion
+		/*Ayuda de mischa tobias, para la realizacion del proyecto.*/
 		Pila* pila = new Pila();
 		Pila* pilaAux = new Pila();
 		Pila* pila1 = new Pila();
